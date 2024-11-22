@@ -1,0 +1,153 @@
+.del{
+    display: none;
+}
+
+body{
+    background-color: #f9f4ef;
+}
+
+*{
+    font-family: "Rancho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+
+}
+
+h1{
+    text-align: center;
+}
+
+.input-sec{
+    display: flex;
+    flex-direction: column;
+    background-color: #8c7851;
+    padding: 20px;
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    box-shadow: 2px 2px 10px black;
+}
+
+input{
+    background-color: #f9f4ef;
+    border: #716040;
+    color: #716040;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 20px;
+
+}
+
+select{
+    background-color: #f9f4ef;
+    border: #716040;
+    color: #716040;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+#submit{
+    background-color: #8c7851;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    box-shadow: 2px 2px 10px black;
+    margin: 15px;
+    transition: 0.6s ease all;
+}
+
+.h2{
+    text-align: center;
+}
+
+.delete{
+    background-color: crimson;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+span{
+    color: #716040;
+}
+
+@media(max-width:426px){
+    h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .input-sec{
+        display: flex;
+        flex-direction: column;
+        background-color: #8c7851;
+        padding: 20px;
+        border-radius: 20px;
+        width: 250px;
+        height: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        box-shadow: 2px 2px 10px black;
+    }
+    
+    input{
+        background-color: #f9f4ef;
+        border: #716040;
+        color: #716040;
+        padding: 10px;
+        border-radius: 20px;
+        width: 150px;
+        font-size: 13px;
+    
+    }
+    
+    select{
+        background-color: #f9f4ef;
+        border: #716040;
+        color: #716040;
+        padding: 10px;
+        border-radius: 20px;
+        width: 100px;
+    }
+    
+    #submit{
+        background-color: #8c7851;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        width: 50px;
+        border: none;
+        box-shadow: 2px 2px 10px black;
+        margin: 15px;
+    }
+
+    .h2{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .delete{
+        background-color: crimson;
+        color: white;
+        border-radius: 15px;
+        padding: 15px;
+        font-size: 15px;
+    }
+}
+
+
+#submit:hover{
+    background-color: #b9a071;
+}
